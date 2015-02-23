@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=info%
 Tags: easy, ticket, tickets, support, help,
 Requires at least: 4.0
 Tested up to: 4.0
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,6 +32,10 @@ This is a beta versión. If you have any problem using our plugin report it on t
 == Screenshots ==
 
 == Changelog ==
+
+= 1.0.1 =
+
+* FIX: Bug fixed
 
 = 1.0.0 =
 
