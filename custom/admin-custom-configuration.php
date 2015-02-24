@@ -24,7 +24,13 @@ $configUrl = "admin.php?page=config";
 <div class="CRMTS_Container_Admin">
 	<h1><?php _e('Opciones de Configuracion', 'easywptickets'); ?></h1>
 		<form onsubmit="activeText()" id="frm_config" name="frm_config" action="<?php echo $configUrl ;?>" method="post">
-			<h2><?php _e('Envio de Notificaciones', 'easywptickets'); ?>:</h2>
+			
+            <div class="configOptionContainer">
+            	<p><?php _e('Crea un nuevo usuario con el rol <b>Agente</b>', 'easywptickets'); ?></p>
+                <p><?php _e('Crea una pagina para tu gestor de tickets y anadele el siguiente shortcode', 'easywptickets'); ?>: <b>[easy_wp_tickets]</b></p>
+            </div>
+            
+            <h2><?php _e('Envio de Notificaciones', 'easywptickets'); ?>:</h2>
             <div class="configOptionContainer">
 <?php 
 				switch ($mode){
