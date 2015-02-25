@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=info%
 Tags: easy, ticket, tickets, support, help, system, soporte, ayuda
 Requires at least: 4.0
 Tested up to: 4.0
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,11 +12,11 @@ Easy Ticket System provides your website a simple support ticket system. Beta ve
 
 == Description ==
 
-    ♦ You must create an user with the rol: **Agent**
-	♦ Create a page for your Easy WP Tickets frontend and add this shortcode: **[easy_wp_tickets]**
-	♦ **Administrator Rol**: Administrate the Easy WP Tickets System
-	♦ **Suscriber Rol**: All the clients/costumers users must have this rol. This rol allows to create tickets as client
-	♦ **Agent Rol: Agents administrate de tickets. You can add different Agents to different subjects, depends on the subject this Agent will manage the ticket
+>* You must create an user with the rol: **Agent**
+>* Create a page for your Easy WP Tickets frontend and add this shortcode: **[easy_wp_tickets]**
+>* **Administrator Rol**: Administrate the Easy WP Tickets System
+>* **Suscriber Rol**: All the clients/costumers users must have this rol. This rol allows to create tickets as client
+>* **Agent Rol: Agents administrate de tickets. You can add different Agents to different subjects, depends on the subject this Agent will manage the ticket
 
 **IMPORTANT**
 
@@ -24,8 +24,8 @@ This is a beta versión. If you have any problem using our plugin report it on t
 
 **Languajes**
 
-* English en_US
-* Spanish es_ES
+>* English en_US
+>* Spanish es_ES
 
 == Installation ==
 
@@ -43,7 +43,12 @@ This is a beta versión. If you have any problem using our plugin report it on t
 
 = 1.0.4 =
 
-* FIX: Info display
+* FIX: Small bug
+* FIX: Info Display
+
+= 1.0.4 =
+
+* FIX: Info Display
 
 = 1.0.3 =
 
