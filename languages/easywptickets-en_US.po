@@ -1,0 +1,415 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy WP Tickets 1.0.3\n"
+"POT-Creation-Date: 2014-04-10 10:37+0100\n"
+"PO-Revision-Date: 2014-04-10 10:53+0100\n"
+"Last-Translator: \n"
+"Language-Team: Cromorama.com <info@cromorama.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../custom/admin-custom-configuration.php:25
+msgid "Opciones de Configuracion"
+msgstr "Configuration Options"
+
+#: ../custom/admin-custom-configuration.php:27
+msgid "Envio de Notificaciones"
+msgstr "Notifications"
+
+#: ../custom/admin-custom-configuration.php:46
+msgid "Paginacion"
+msgstr "Pagination"
+
+#: ../custom/admin-custom-subjects.php:25
+msgid "Administracion de Asuntos"
+msgstr "Subjects Administration"
+
+#: ../custom/admin-custom-tickets.php:32
+msgid "Administracion de Tickets"
+msgstr "Tickets Administration"
+
+#: ../custom/frontend-custom-administrator.php:22
+msgid "Accede al panel de control haciendo"
+msgstr "Acces to the Control Panel"
+
+#: ../custom/frontend-custom-administrator.php:22
+msgid "click aqui"
+msgstr "clicking here"
+
+#: ../easywptickets.php:35 ../includes/crm-admin-subjects.php:84
+#: ../includes/crm-admin-subjects.php:133
+msgid "Agente"
+msgstr "Agent"
+
+#: ../includes/crm-admin-configuration.php:32
+msgid "Email para notificaciones"
+msgstr "Notification Email"
+
+#: ../includes/crm-admin-configuration.php:37
+msgid "Recibir notificaciones como administrador"
+msgstr "Recieve notifications as admin"
+
+#: ../includes/crm-admin-configuration.php:40
+msgid "Plantilla Nuevo Ticket"
+msgstr "New Ticket Theme"
+
+#: ../includes/crm-admin-configuration.php:46
+msgid "Activar notificacion de nuevo ticket"
+msgstr "Activate new ticket email notification"
+
+#: ../includes/crm-admin-configuration.php:47
+#: ../includes/crm-admin-configuration.php:58
+msgid "Enviar email de prueba"
+msgstr "Send test email"
+
+#: ../includes/crm-admin-configuration.php:47
+#: ../includes/crm-admin-configuration.php:58
+msgid "Guarda antes para ver cambios"
+msgstr "Save to see changes"
+
+#: ../includes/crm-admin-configuration.php:51
+msgid "Plantilla Nuevo Comentario"
+msgstr "New Comment Theme"
+
+#: ../includes/crm-admin-configuration.php:57
+msgid "Activar notificacion de nuevo comentario"
+msgstr "Activate new comment email notification"
+
+#: ../includes/crm-admin-configuration.php:130
+msgid "Activar Paginacion"
+msgstr "Activate pagination"
+
+#: ../includes/crm-admin-configuration.php:131
+msgid "Se mostrara la paginacion solo si es necesaria"
+msgstr "Will show if necesary"
+
+#: ../includes/crm-admin-configuration.php:134
+msgid "Elementos por pagina"
+msgstr "Number of elements by page"
+
+#: ../includes/crm-admin-configuration.php:139
+#: ../includes/crm-admin-subjects.php:84
+#: ../includes/crm-admin-subjects.php:133
+msgid "Nota"
+msgstr "Info"
+
+#: ../includes/crm-admin-configuration.php:139
+msgid "Esta version de paginacion no es compatible con los filtros"
+msgstr "This pagination version is not compatible with filters"
+
+#: ../includes/crm-admin-configuration.php:183
+msgid "Cambios guardados correctamente"
+msgstr "Changes saved correctly"
+
+#: ../includes/crm-admin-configuration.php:190
+msgid "No se han podido guardar los cambios"
+msgstr "Problen saving changes"
+
+#: ../includes/crm-admin-configuration.php:190
+#: ../includes/crm-admin-tickets.php:285 ../includes/crm-admin-tickets.php:310
+#: ../includes/crm-frontend-support.php:291
+#: ../includes/crm-frontend-support.php:316 ../includes/crm-motor-mail.php:85
+msgid "Contacte con un administrador"
+msgstr "Contact an administrator"
+
+#: ../includes/crm-admin-subjects.php:25 ../includes/crm-admin-subjects.php:83
+#: ../includes/crm-admin-subjects.php:132 ../includes/crm-admin-tickets.php:43
+#: ../includes/crm-frontend-client.php:39
+#: ../includes/crm-frontend-client.php:193
+#: ../includes/crm-frontend-support.php:39
+msgid "Asunto"
+msgstr "Subject"
+
+#: ../includes/crm-admin-subjects.php:26 ../includes/crm-admin-subjects.php:84
+#: ../includes/crm-admin-subjects.php:133
+msgid "Agente Asociado"
+msgstr "Agent"
+
+#: ../includes/crm-admin-subjects.php:27 ../includes/crm-motor-filters.php:31
+msgid "Estado"
+msgstr "Status"
+
+#: ../includes/crm-admin-subjects.php:28
+msgid "Acciones"
+msgstr "Actions"
+
+#: ../includes/crm-admin-subjects.php:49
+msgid "Editar"
+msgstr "Edit"
+
+#: ../includes/crm-admin-subjects.php:52
+msgid "Deseas borrar este asunto"
+msgstr "Want to delete this subject?"
+
+#: ../includes/crm-admin-subjects.php:52
+msgid "Se eliminaran los tickets y comentarios asociados al mismo"
+msgstr "Tickets and comments will be deleted aswell"
+
+#: ../includes/crm-admin-subjects.php:53 ../includes/crm-admin-tickets.php:110
+msgid "Eliminar"
+msgstr "Delete"
+
+#: ../includes/crm-admin-subjects.php:71
+msgid "Nuevo Asunto"
+msgstr "New Subject"
+
+#: ../includes/crm-admin-subjects.php:84
+#: ../includes/crm-admin-subjects.php:133
+msgid "El Agente Asociado debe ser un"
+msgstr "The Agent must be a"
+
+#: ../includes/crm-admin-subjects.php:84
+#: ../includes/crm-admin-subjects.php:133
+msgid "usuario registrado"
+msgstr "register user"
+
+#: ../includes/crm-admin-subjects.php:84
+#: ../includes/crm-admin-subjects.php:133
+msgid "con el perfil"
+msgstr "with rol"
+
+#: ../includes/crm-admin-subjects.php:85
+msgid "Activar"
+msgstr "Activate"
+
+#: ../includes/crm-admin-subjects.php:88
+msgid "Crear Nuevo Asunto"
+msgstr "Create New Subject"
+
+#: ../includes/crm-admin-subjects.php:90
+msgid "Cancelar Nuevo Asunto"
+msgstr "Cancel New Subject"
+
+#: ../includes/crm-admin-subjects.php:134
+msgid "Activado"
+msgstr "Active"
+
+#: ../includes/crm-admin-subjects.php:137
+msgid "Actualizar Asunto"
+msgstr "Update Subject"
+
+#: ../includes/crm-admin-subjects.php:139
+msgid "Cancelar la Edicion"
+msgstr "Cancel edition"
+
+#: ../includes/crm-admin-subjects.php:206
+#: ../includes/crm-admin-tickets.php:330
+msgid "No tienes permiso para realizar esta accion"
+msgstr "Dont have permision to do this action"
+
+#: ../includes/crm-admin-tickets.php:40 ../includes/crm-frontend-client.php:37
+#: ../includes/crm-frontend-support.php:36
+msgid "ID"
+msgstr "ID"
+
+#: ../includes/crm-admin-tickets.php:41 ../includes/crm-frontend-client.php:38
+#: ../includes/crm-frontend-support.php:37
+msgid "Fecha"
+msgstr "Date"
+
+#: ../includes/crm-admin-tickets.php:42
+#: ../includes/crm-frontend-support.php:38
+msgid "Usuario"
+msgstr "User"
+
+#: ../includes/crm-admin-tickets.php:44 ../includes/crm-frontend-client.php:40
+#: ../includes/crm-frontend-client.php:220
+#: ../includes/crm-frontend-support.php:40
+msgid "Descripcion"
+msgstr "Description"
+
+#: ../includes/crm-admin-tickets.php:103
+#: ../includes/crm-frontend-client.php:104
+#: ../includes/crm-frontend-support.php:108
+msgid "Ver Tiket"
+msgstr "View Ticket"
+
+#: ../includes/crm-admin-tickets.php:109
+msgid "Deseas borrar este ticket"
+msgstr "Want to delete this ticket?"
+
+#: ../includes/crm-admin-tickets.php:109
+msgid "Tambien se eliminaran los comentarios de seguimiento asociados al mismo"
+msgstr "Comments will be deleted aswell"
+
+#: ../includes/crm-admin-tickets.php:128
+msgid "No existen tickets"
+msgstr "Tickets doesn´t exists"
+
+#: ../includes/crm-admin-tickets.php:135
+#: ../includes/crm-frontend-client.php:130
+#: ../includes/crm-frontend-support.php:155
+msgid "Ticket Enviado por"
+msgstr "Sended by"
+
+#: ../includes/crm-admin-tickets.php:135
+#: ../includes/crm-frontend-client.php:130
+#: ../includes/crm-frontend-support.php:155
+msgid "Telefono de Contacto"
+msgstr "Contact Telephone"
+
+#: ../includes/crm-admin-tickets.php:168
+#: ../includes/crm-frontend-client.php:155
+msgid "Volver Atras"
+msgstr "Go Back"
+
+#: ../includes/crm-admin-tickets.php:172
+#: ../includes/crm-frontend-support.php:114
+#: ../includes/crm-frontend-support.php:126
+msgid "Cerrar Ticket"
+msgstr "Close Ticket"
+
+#: ../includes/crm-admin-tickets.php:211
+#: ../includes/crm-frontend-client.php:312
+msgid "No exiten comentarios de seguimiento"
+msgstr "Comments doesn´t exists"
+
+#: ../includes/crm-admin-tickets.php:235
+#: ../includes/crm-frontend-support.php:229 ../includes/crm-motor-mail.php:21
+msgid "Nuevo Comentario de Seguimiento"
+msgstr "New Tracing Comment"
+
+#: ../includes/crm-admin-tickets.php:239
+#: ../includes/crm-frontend-support.php:233
+msgid "Enviar"
+msgstr "Send"
+
+#: ../includes/crm-admin-tickets.php:278
+#: ../includes/crm-frontend-support.php:284
+msgid "El nuevo comentario se ha introducido con exito"
+msgstr "New comment added successfully"
+
+#: ../includes/crm-admin-tickets.php:285
+#: ../includes/crm-frontend-support.php:291
+msgid "No se ha podido introducir el registro"
+msgstr "Problem adding data"
+
+#: ../includes/crm-admin-tickets.php:303
+#: ../includes/crm-frontend-support.php:309
+msgid "Se ha cerrado el ticket con exito"
+msgstr "Ticket closed successfully"
+
+#: ../includes/crm-admin-tickets.php:310
+#: ../includes/crm-frontend-support.php:316
+msgid "No se ha podido cerrar el ticket"
+msgstr "Problem closing ticket"
+
+#: ../includes/crm-frontend-client.php:121
+msgid "Aun no has enviado ningun ticket"
+msgstr "No tickets sended"
+
+#: ../includes/crm-frontend-client.php:147
+msgid "Bienvenido"
+msgstr "Wellcome"
+
+#: ../includes/crm-frontend-client.php:160
+msgid "Enviar Nuevo Ticket"
+msgstr "Send New Ticket"
+
+#: ../includes/crm-frontend-client.php:182
+msgid "No existen asuntos"
+msgstr "Subjects doesn´t exists"
+
+#: ../includes/crm-frontend-client.php:182
+msgid "Consulta con un administrador"
+msgstr "Contact an administrator"
+
+#: ../includes/crm-frontend-client.php:195
+msgid "Selecciona un Asunto"
+msgstr "Select a Subject"
+
+#: ../includes/crm-frontend-client.php:206
+msgid "Importancia"
+msgstr "Priority"
+
+#: ../includes/crm-frontend-client.php:208
+#: ../includes/crm-motor-filters.php:39
+msgid "Baja"
+msgstr "Low"
+
+#: ../includes/crm-frontend-client.php:209
+#: ../includes/crm-motor-filters.php:38
+msgid "Media"
+msgstr "Medium"
+
+#: ../includes/crm-frontend-client.php:210
+#: ../includes/crm-motor-filters.php:37
+msgid "Alta"
+msgstr "High"
+
+#: ../includes/crm-frontend-client.php:215
+msgid "Contacto"
+msgstr "Contact"
+
+#: ../includes/crm-frontend-client.php:216
+msgid "Tlf Contacto"
+msgstr "Contact Phone"
+
+#: ../includes/crm-frontend-client.php:227
+msgid "Enviar Ticket"
+msgstr "Send Ticket"
+
+#: ../includes/crm-frontend-support.php:113
+#: ../includes/crm-frontend-support.php:125
+msgid "Desea cerrar el ticket definitivamente"
+msgstr "Do you want to close the ticket?"
+
+#: ../includes/crm-frontend-support.php:146
+msgid "Aun no has recibido ningun ticket"
+msgstr "No tickets received yet"
+
+#: ../includes/crm-frontend-support.php:193
+msgid "No existen comentarios de seguimiento"
+msgstr "Tracing comments doesn´t exists"
+
+#: ../includes/crm-frontend-support.php:216
+msgid "Regresar"
+msgstr "Go Back"
+
+#: ../includes/crm-motor-filters.php:31 ../includes/crm-motor-filters.php:36
+#: ../includes/crm-motor-filters.php:42 ../includes/crm-motor-filters.php:46
+msgid "Ver Todo"
+msgstr "View All"
+
+#: ../includes/crm-motor-filters.php:32
+msgid "Tickets Abiertos"
+msgstr "Open Tickets"
+
+#: ../includes/crm-motor-filters.php:33
+msgid "Tickets Cerrados"
+msgstr "Closed Tickets"
+
+#: ../includes/crm-motor-filters.php:36
+msgid "Prioridad"
+msgstr "Priority"
+
+#: ../includes/crm-motor-filters.php:42
+msgid "Usuarios"
+msgstr "Users"
+
+#: ../includes/crm-motor-filters.php:46
+msgid "Asuntos"
+msgstr "Subjects"
+
+#: ../includes/crm-motor-filters.php:49
+msgid "Filtrar"
+msgstr "Apply Filters"
+
+#: ../includes/crm-motor-mail.php:24
+msgid "Nuevo Ticket"
+msgstr "New Ticket"
+
+#: ../includes/crm-motor-mail.php:78
+msgid "Email de prueba enviado con exito"
+msgstr "Test email sended successfully"
+
+#: ../includes/crm-motor-mail.php:85
+msgid "No se ha podido enviar el email de prueba"
+msgstr "Problem sendidng test email"
