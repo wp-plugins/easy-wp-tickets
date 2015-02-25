@@ -24,7 +24,7 @@ function showTicketsTableClient($ciaID, $it){
 	
 	}
 	
-	echo "ID: ".$ciaID;
+	//echo "ID: ".$ciaID;
 	
 	$rows = $wpdb->get_results($wpdb->prepare("SELECT * FROM crm_tickets INNER JOIN wp_users ON crm_tickets.id_user = wp_users.ID INNER JOIN crm_subjects ON crm_tickets.id_subject = crm_subjects.id_subject WHERE id_user = $ciaID $moreWhere ORDER BY id_ticket DESC"));
 
@@ -140,8 +140,15 @@ function showMenuClient($ciaID, $mode){
 	$row = $wpdb->get_row($wpdb->prepare("SELECT * FROM wp_users WHERE ID = $ciaID"));
 
 	$backURL = get_permalink();
-	$urlVolverAtras = $backURL."?clt_mode=return&ic=$ciaID";
-	$newTicket = $backURL."?clt_mode=newTicket&ic=$ciaID";
+	$isFriendly = strpos($backURL, '?');
+	
+	if($isFriendly == false){
+		$urlVolverAtras = $backURL."?clt_mode=return&ic=$ciaID";
+		$newTicket = $backURL."?clt_mode=newTicket&ic=$ciaID";
+	}else{
+		$urlVolverAtras = $backURL."&clt_mode=return&ic=$ciaID";
+		$newTicket = $backURL."&clt_mode=newTicket&ic=$ciaID";
+	}
 	
 ?>
 	<p class="clientName"><?php _e('Bienvenido', 'easywptickets'); ?> <?php echo $row->display_name; ?></p>

@@ -27,7 +27,7 @@ $configUrl = "admin.php?page=config";
 			
             <div class="configOptionContainer">
             	<p><?php _e('Crea un nuevo usuario con el rol <b>Agente</b>', 'easywptickets'); ?></p>
-                <p><?php _e('Crea una pagina para tu gestor de tickets y anadele el siguiente shortcode', 'easywptickets'); ?>: <b>[easy_wp_tickets]</b></p>
+                <p><?php _e('Crea una pagina para tu gestor de tickets y añadele el siguiente shortcode', 'easywptickets'); ?>: <b>[easy_wp_tickets]</b></p>
             </div>
             
             <h2><?php _e('Envio de Notificaciones', 'easywptickets'); ?>:</h2>

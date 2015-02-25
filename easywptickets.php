@@ -5,7 +5,7 @@
 * Plugin Name: Easy WP Tickets
 * Plugin URI: http://www.cromorama.com
 * Description: Simple and easy tickets system for you website.
-* Version: 1.0.2
+* Version: 1.0.3
 * Author: Cromorama.com
 * Author URI: http://www.cromorama.com
 *
